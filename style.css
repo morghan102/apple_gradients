@@ -1,0 +1,49 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         /* set this on all new css. "When you set box-sizing: 
+         border-box; on an element, the padding and border of 
+         that element no longer increase its width. Here is the 
+         same example as the previous page, but with box-sizing:
+          border-box; on both elements" */
+}
+
+.navbar {
+    background: blue;
+}
+
+.title {
+    background: red;
+}
+
+.horizontal-boxes {
+    background: lightblue;
+}
+
+.box {
+    border: darkgreen;
+}
+
+.i5-s {
+    background: orange;
+}
+
+.i5-c {
+    background: pink;
+}
+
+.mac-bday {
+    background: green;
+}
+
+.supp-resp {
+    background: chocolate;
+}
+
+.footer {
+    background: crimson;
+}
+.top-foot-box {
+
+}
