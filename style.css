@@ -10,11 +10,12 @@
 }
 
 .navbar {
-    background: blue;
+    background: lightblue;
+    /* cap words */
 }
 
 .title {
-    background: red;
+    background: rgb(202, 51, 96);
 }
 
 .horizontal-boxes {
@@ -42,7 +43,7 @@
 }
 
 .footer {
-    background: crimson;
+    background: cornflowerblue;
 }
 .top-foot-box {
 
