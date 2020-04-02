@@ -13,10 +13,23 @@
     background: lightblue;
     /* cap words */
 }
+.apple-logo {
+    height: 20px;
+}
 
-.title {
+
+
+
+.main-sect {
     background: rgb(202, 51, 96);
 }
+.play-btn {
+    height: 30px;
+}
+
+
+
+
 
 .horizontal-boxes {
     background: lightblue;
