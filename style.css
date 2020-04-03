@@ -8,13 +8,77 @@
          same example as the previous page, but with box-sizing:
           border-box; on both elements" */
 }
+html {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    /* color: black; */
+}
 
+
+header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 36px; */
+    /* width: 980px; */
+    text-align: left;
+    /* needd that?? */
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    background-size: 1440px 1315px;
+    margin: 0;
+    /* left: 50%; */
+    /* margin-left: -720px; */
+    /* width: 1440px; */
+    height: 550px;
+}
 .navbar {
     background: lightblue;
+    position: relative;
+    height: 36px;
+    width: 980px;
+    /* margin: 0 22px; */
+    top: 50px;
+    top: 18px;
+
     /* cap words */
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+.navbar ul a {
+    color: white;
+}
+/* the searchbar */
+.navbar li form {
+    width: 100%;
+    /* i cant get the width to do what i want ???? */
+}
+.navbar li form input {
+    width: 106px;
+    background-color: rgba(255,255,255,.1);
+    border-radius: 12px;
+    /* b shadow may or may not do anything */
+    box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
 }
 .apple-logo {
     height: 20px;
+}
+.magnify {
+    height: 37%;
+    width: 5%;
+    /* not sure if this rlly makes a diff */
 }
 
 
@@ -22,6 +86,28 @@
 
 .main-sect {
     background: rgb(202, 51, 96);
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.a {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 105px;
+    margin-bottom: -14px;
+}
+.b {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 86px;
+    margin-bottom: 24px;
+}
+.c {
+    position: relative;
+    overflow: hidden;
+    height: 31px;
 }
 .play-btn {
     height: 30px;
@@ -30,13 +116,21 @@
 
 
 
-
 .horizontal-boxes {
+    width: 100%;
+    /* need a max&min width thing */
+    /* need like 1px of space betw ea picture */
+}
+.horizontal-boxes ul {
     background: lightblue;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+
 }
 
 .box {
-    border: darkgreen;
+    /* border: darkgreen; */
 }
 
 .i5-s {
