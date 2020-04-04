@@ -7,6 +7,7 @@
          that element no longer increase its width. Here is the 
          same example as the previous page, but with box-sizing:
           border-box; on both elements" */
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 html {
     margin: 0;
@@ -43,9 +44,10 @@ header {
     height: 36px;
     width: 980px;
     /* margin: 0 22px; */
-    top: 50px;
+    margin-top: 75px;
     top: 18px;
 
+    /* length of nbar isnt quite right. the input doesnt fit right */
     /* cap words */
 }
 .navbar ul {
@@ -59,6 +61,15 @@ header {
 }
 .navbar ul a {
     color: white;
+}
+.navbar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0 2px 0 1px;
+    border-style: solid;
+    -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+    width: 100%;
 }
 /* the searchbar */
 .navbar li form {
@@ -79,14 +90,17 @@ header {
     height: 37%;
     width: 5%;
     /* not sure if this rlly makes a diff */
+    position: absolute;
 }
 
 
 
 
 .main-sect {
-    background: rgb(202, 51, 96);
+    /* background: rgb(202, 51, 96); */
     position: relative;
+    padding: 50px 0;
+    margin-top: 80px;
     text-align: center;
     color: white;
 }
@@ -118,11 +132,11 @@ header {
 
 .horizontal-boxes {
     width: 100%;
+    margin-top: -10px;
     /* need a max&min width thing */
-    /* need like 1px of space betw ea picture */
 }
 .horizontal-boxes ul {
-    background: lightblue;
+    /* background: lightblue; */
     display: flex;
     flex-direction: row;
     padding: 0;
@@ -134,23 +148,23 @@ header {
 }
 
 .i5-s {
-    background: orange;
+    /* background: orange; */
 }
 
 .i5-c {
-    background: pink;
+    /* background: pink; */
 }
 
 .mac-bday {
-    background: green;
+    /* background: green; */
 }
 
 .supp-resp {
-    background: chocolate;
+    /* background: chocolate; */
 }
 
 .footer {
-    background: cornflowerblue;
+    /* background: cornflowerblue; */
 }
 .top-foot-box {
 
