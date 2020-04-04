@@ -7,7 +7,8 @@
          that element no longer increase its width. Here is the 
          same example as the previous page, but with box-sizing:
           border-box; on both elements" */
-    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-style: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px/18px;
 }
 html {
     margin: 0;
@@ -18,7 +19,7 @@ ul {
 }
 a {
     text-decoration: none;
-    /* color: black; */
+    color: #08c;
 }
 
 
@@ -46,9 +47,8 @@ header {
     /* margin: 0 22px; */
     margin-top: 75px;
     top: 18px;
-
+    text-transform: capitalize;
     /* length of nbar isnt quite right. the input doesnt fit right */
-    /* cap words */
 }
 .navbar ul {
     display: flex;
@@ -131,16 +131,28 @@ header {
 
 
 .horizontal-boxes {
-    width: 100%;
-    margin-top: -10px;
+    /* width: 1440px; */
+
+    margin-top: -15px;
     /* need a max&min width thing */
 }
 .horizontal-boxes ul {
     /* background: lightblue; */
     display: flex;
     flex-direction: row;
+    max-width:  1440px;
+    /* swap width to hb ul */
+/* width: 1440px; */
+    overflow: hidden;
     padding: 0;
 
+}
+.horizontal-boxes ul li {
+    width: 335px;
+    border: 1px white solid;
+}
+.horizontal-boxes ul li img {
+    width: 335px;
 }
 
 .box {
@@ -163,9 +175,71 @@ header {
     /* background: chocolate; */
 }
 
+
+
+/* too much space at top */
 .footer {
     /* background: cornflowerblue; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 180px;
+    color: #6e6e6e;
+    font-size: .72em;
+    line-height: 1.2;
+    text-align: center;
+    /* text-transform: capitalize; */
+/* this is no but on some stuff, yes */
+    word-spacing: -1px;
+
+    /* letter-spacing: .01px; */
 }
 .top-foot-box {
+    display: flex;
+    flex-direction: row;
+    padding-top: .2em;
+}
+.apple-store-links {
+    width: 49%;
+    text-align: left;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    flex-wrap: nowrap;
+    /* width: 51%; */
+    padding-top: 1.5em;
+    text-align: right;
+    text-transform: capitalize;
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
 
+}
+/* cant get text aligned on the right! */
+.first {
+    margin: 0 !important;
+    padding: 0 !important; 
+    border: none !important;
+}
+.navigation li {
+    margin-left: .6em;
+    padding-left: .6em;
+    border-left: 1px solid #ccc;
+    white-space: nowrap;
+}
+.btm-foot-box {
+    padding: 0;
+    margin-top: 7px;
+    text-align: left;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.priv-pol {
+    margin-left: .6em;
+    padding-left: .6em;
+    border-left: 1px solid #ccc;
 }
