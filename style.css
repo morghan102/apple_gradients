@@ -27,16 +27,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 36px; */
-    /* width: 980px; */
     text-align: left;
-    /* needd that?? */
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
     background-size: 1440px 1315px;
     margin: 0;
-    /* left: 50%; */
-    /* margin-left: -720px; */
-    /* width: 1440px; */
     height: 550px;
 }
 .navbar {
@@ -46,18 +40,11 @@ header {
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
     box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
     border-radius: 4.5px;
-    /* background: #707070;
-    background-image: linear-gradient(rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, ) rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%); */
-    /* background: linear-gradient(to top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%); */
-    /* linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0,; */
     position: relative;
     height: 36px;
     width: 980px;
-    /* margin: 0 22px; */
     margin-top: 75px;
     top: 18px;
-    /* text-transform: capitalize; */
-    /* length of nbar isnt quite right. the input doesnt fit right */
 }
 .navbar ul {
     display: flex;
@@ -66,7 +53,6 @@ header {
     height: 100%;
     margin: 0;
     padding: 0;
-    /* color: white; */
 }
 .navbar ul a {
     color: white;
@@ -83,18 +69,13 @@ header {
 /* the searchbar */
 .navbar li form {
     width: 100%;
-    /* i cant get the width to do what i want ???? */
 }
 .navbar li form input {
-    /* align-self: center; */
-    /* justify-self: center; */
     margin-left: 5px;
     width: 95px;
-    /* background: none; */
     border: none;
     background-color: rgba(255,255,255,.1);
     border-radius: 12px;
-    /* b shadow may or may not do anything */
     box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
 }
 .apple-logo {
@@ -106,14 +87,12 @@ header {
     margin-top: 3px;
     height: 37%;
     width: 5%;
-    /* not sure if this rlly makes a diff */
 }
 
 
 
 
 .main-sect {
-    /* background: rgb(202, 51, 96); */
     position: relative;
     padding: 50px 0;
     margin-top: 80px;
@@ -147,18 +126,12 @@ header {
 
 
 .horizontal-boxes {
-    /* width: 1440px; */
-
     margin-top: -15px;
-    /* need a max&min width thing */
 }
 .horizontal-boxes ul {
-    /* background: lightblue; */
     display: flex;
     flex-direction: row;
     max-width:  1440px;
-    /* swap width to hb ul */
-/* width: 1440px; */
     overflow: hidden;
     padding: 0;
 
@@ -171,31 +144,8 @@ header {
     width: 335px;
 }
 
-.box {
-    /* border: darkgreen; */
-}
 
-.i5-s {
-    /* background: orange; */
-}
-
-.i5-c {
-    /* background: pink; */
-}
-
-.mac-bday {
-    /* background: green; */
-}
-
-.supp-resp {
-    /* background: chocolate; */
-}
-
-
-
-/* too much space at top */
 .footer {
-    /* background: cornflowerblue; */
     display: flex;
     flex-direction: column;
     margin: 0 180px;
@@ -203,11 +153,7 @@ header {
     font-size: .72em;
     line-height: 1.2;
     text-align: center;
-    /* text-transform: capitalize; */
-/* this is no but on some stuff, yes */
     word-spacing: -1px;
-
-    /* letter-spacing: .01px; */
 }
 .top-foot-box {
     display: flex;
@@ -223,16 +169,12 @@ header {
     flex-direction: row;
     max-width: 500px;
     flex-wrap: nowrap;
-    /* width: 51%; */
     padding-top: 1.5em;
     text-align: right;
     text-transform: capitalize;
-    /* width: 100%; */
     margin: 0;
     padding: 0;
-
 }
-/* cant get text aligned on the right! */
 .first {
     margin: 0 !important;
     padding: 0 !important; 
